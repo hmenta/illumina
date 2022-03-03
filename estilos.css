@@ -163,6 +163,13 @@ h5 {
  
 }
 
+.container-hanging {
+background-color: white;
+border: 2px;
+border-color: grey;
+padding: 10px;
+}
+
 .contenedor-grid-nosotros {
   display: grid;
   padding: 10px;
