@@ -94,6 +94,7 @@ h5 {
   width: 100%;
   height: 40rem;
   padding-top: 5px;
+  
 }
 
 .imagen-bienvenida-cursos {
@@ -108,6 +109,15 @@ h5 {
 .imagen-bienvenida-nosotros {
   background-image: url("img/Nosotros.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+  padding: 10px;
+}
+
+.imagen-bienvenida-faqs {
+  background-image: url("img/question-mark-gddcf4f54d_1920.jpg");
+  background-size:cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 30rem;
@@ -179,6 +189,17 @@ padding: 10px;
   grid-template-rows: auto 1fr;
    
 }
+
+.contenedor-accordion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  padding: 10px;
+  
+  margin: 2px;
+  border-color: grey;
+} 
 
 .contenedor {
   display: flex;
