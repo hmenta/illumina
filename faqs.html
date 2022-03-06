@@ -10,8 +10,10 @@
         <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <script src="https://kit.fontawesome.com/fcc6ab1115.js" crossorigin="anonymous"></script>
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="valida.js"></script> <!-- considerar alternativa de agregar en la clase propia del formulario -->
+       
+        <!-- <script src="valida.js"></script>  considerar alternativa de agregar en la clase propia del formulario -->
     
     </head>
 
@@ -49,70 +51,112 @@
     </div>
 
     <p>
-    <div class="contenedor-accordion">
+        <div class="contenedor-cards">
 
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    ¿Cómo me inscribo en algún curso?
-                </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Te sugerimos consultar el calendario en nuestras redes sociales, en la página de novedades o en el campus virtual 
-                    para conocer la fecha de inicio del dictado del curso o programa de tu interés.  Luego debes contactar con nuestra administración 
-                    para inscribirte y realizar el pago del curso elegido por los distintos medios habilitados.  
-                    En respuesta recibirás un mail con las instrucciones administrativas para el registro y el pago.
-
-                </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <strong>¿Cómo es el modelo de estudio por internet o de enseñanza virtual?</strong>
-                </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>Los cursos y diplomaturas que ofrecemos se desarrollan a través del Campus Virtual del instituto, se trata de la modalidad e-Learning colaborativo el cual es una expresión educativa propia de la Web.  Para ello nos basamos en un modelo pedagógico de aprendizaje significativo y perspectiva constructivista-dialógica que propone, como sustento básico del proceso de enseñanza-aprendizaje, la construcción propia de conocimientos por parte de cada uno de los alumnos en un marco interactivo y de retroalimentación continua con los profesores-tutores, así como también con otros estudiantes del mismo cohorte, pares, colegas y el variado contexto socio-profesional que aporta la comunicación a través de la red Internet.</p>
-
-                    <p>La modalidad del e-learning que proponemos implica la selección y curado de contenidos teórico-prácticos digitalizados en línea, materiales de lectura asociados a dichos contenidos, foros temáticos proactivos de socialización y discusión; todo esto coordinado por profesores-tutores y evaluaciones periódicas de los temas y contenidos desarrollados.</p>
-
-                    <p>Todos los cursos, salvo casos especiales, están organizados en módulos de un mes de duración; los que están conformados por cuatro unidades didácticas y requieren una dedicación semanal en torno a las tres a ocho horas, de acuerdo al nivel de profundidad con el cual el alumno quiera abordar los contenidos y actividades.
-
-                    <p>Las diplomaturas o programas de formación, incluyen una cantidad de cursos asociados que deben ser aprobados en su totalidad para acceder al diploma final.</p>
-</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
-                </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-                </div>
+            <div class="card">
+            <div class="card-body">
+                    <h5 class="card-title">¿Qué tecnología se utiliza para la enseñanza por internet?</h5>
+                    <p class="card-text">Nuestra aula virtual está fundamentada en las plataformas LMS (Learning Management System) 
+                        como Moodle; las cuales son utilizadas por universidades, casas de estudios, docentes e institutos educativos 
+                        líderes en formación a distancia.
+                        <br>    
+                        Esta metodología no consiste solamente de clases estáticas grabadas en video como en los tutoriales de otras plataformas, sino que nos centramos en el aprendizaje del alumno requiriendo además la lectura de materiales, la producción de reflexiones en foros de participación y
+                         la realización de consignas específicas de evaluación, tales como resúmenes o cuestionarios.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
             </div>
 
-    
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">¿Qué sucede si me anoto en un curso, pago el arancel pero me arrepiento o no es lo que esperaba?</h5>
+                <p class="card-text">Aquellos alumnos que por diversos motivos de índole personal consideren dar de baja la cursada, podrán hacerlo hasta 48 horas antes de la fecha de inicio.  En tal caso, recibirán un reembolso descontadas las comisiones del broker de pago utilizado.  Una vez iniciado el curso no se realizarán reintegros de los pagos efectuados y la solicitud de baja deberán realizarla vía e-mail al mail del rectorado, podrán solicitar su reinscripción debiendo 
+                    adecuarse naturalmente a las nuevas fechas de comienzo establecidas para los módulos, sin necesidad de nuevo pago.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
             </div>
-
-        
-    
-                
-        
-
             
 
-        </div>
-    </div>
+            <div class="card">
+            <div class="card-body">
+                    <h5 class="card-title">Estoy realizando un curso, ¿puedo acceder a un diploma al finalizar el mismo?</h5>
+                    <p class="card-text">Sí, todos nuestros cursos poseen la emisión de un diploma de asistencia o aprobación (según corresponda) en formato “pdf” a la finalización del mismo el cual es enviado por correo electrónico. El único requisito para obtenerlo es haber realizado y aprobado las pautas académicas establecidas por el docente en el curso. Para aquellos casos en los que no se hayan cumplimentado todos los requisitos pero hayan participado del 80% de las clases, se emitirá un diploma de asistencia al mismo.
+                        Adicionalmente, al finalizar la totalidad de los cursos que forman parte de un programa de formación o diplomatura, se emitirá un diploma final adicional que dará testimonio de la integración de los contenidos.
+                        </p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+            </div>
+              
 
+            <div class="card">
+            <div class="card-body">
+    
+                <h5 class="card-title">Los certificados y diplomas, ¿tienen validez académica u oficial?</h5>
+                <p class="card-text">Nuestros diplomas y certificados poseen reconocimiento institucional y tienen 
+                    validez vocacional.
+                    Nos encontramos transitando el camino para obtener la certificación de calidad de otras 
+                    asociaciones de instituciones teológicas para que sean reconocidos los créditos académicos en 
+                    otras instituciones.
+                    </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+            </div>
+            
+
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">¿Cómo puedo realizar el pago de mis cursos?</h5>
+                <p class="card-text">Junto con el mail de bienvenida en respuesta a la inscripción, recibirás los links para efectuar el pago del curso que hayas decido tomar.  Las modalidades disponibles en este momento son:
+                    <br>
+                    <br>Para estudiantes de Argentina:
+                    <br>
+                    <ul>Mercado Pago (para tarjetas de débito/crédito y pagos en efectivo).</ul>
+                    
+                    <ul>Transferencia o depósito bancario.</ul>
+                    <br>
+                    Para estudiantes internacionales:
+                    <br>
+                    <br>
+                    <ul>Payoneer (USD, GBP, EUR).</ul>
+                    <ul>Paypal (USD).</ul>
+                    <br>
+                    </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+            </div>
+            
+        </div>
+    
+
+        <div class="container">       
+            <div class="card">
+                <h5 class="card-header" style="background-color:lightseagreen; color:white; font-weight: bolder;">
+                    ¿Más preguntas?</h5>
+                <div class="card-body">
+                <!-- <h5 class="card-title">Programas Virtuales</h5> -->
+                <p class="card-text">Haz click aquí para leer <a href="Términos y condiciones e-learning Illumina final.docx.pdf">los términos y condiciones.</a></p>
+                    
+                <br>
+                
+                También estamos a tu disposición por los siguientes canales de atención:
+                <br>
+                </p>
+                <br>
+                <a href="mailto:#" class="btn btn-primary"><img src="img/envelope-solid.svg" style="width: 1.5rem; padding: 2px"> Por Mail</a>
+                <a href="https://wa.me/5491176522721/?text=Describa%20el%20motivo%20de%20su%20consulta%20.%20Muchas%20gracias!" id="whatsapp" target="_blank" class="btn btn-success">
+                        <img src="img/whatsapp-square-brands.svg" style="width: 1.5rem; padding: 2px"> Whatsapp</a>
+                        <br>
+                        <br>
+                        <p>
+                        Si prefieres hablar con un asesor, llámanos al (+549)(11) <strong>7652-2721</strong>
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        
+   
+
+    
 </body>
 
 
@@ -124,7 +168,7 @@
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Presentación</a></li>
         <li class="nav-item"><a href="cursos.html" class="nav-link px-2 text-white">Cursos</a></li>
         <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-white">Nosotros</a></li>
-        <li class="nav-item"><a href="faqs" class="nav-link px-2 text-black">Preguntas</a></li>
+        <li class="nav-item"><a href="faqs.html" class="nav-link px-2 text-black">Preguntas</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Acceso al Campus</a></li>
       </ul>
       

@@ -117,8 +117,8 @@ h5 {
 
 .imagen-bienvenida-faqs {
   background-image: url("img/question-mark-gddcf4f54d_1920.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
   width: 100%;
   height: 30rem;
   padding: 10px;
@@ -247,6 +247,24 @@ ul li {
   padding-top: 30px;
   padding-bottom: 30px;
 
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+
+  &.collapse-horizontal {
+    width: 0;
+    height: auto;
+    @include transition($transition-collapse-width);
+  }
 }
 
 /* Estilos del footer y redes sociales */
